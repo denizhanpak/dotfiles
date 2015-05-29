@@ -110,11 +110,12 @@ text/*; gvim %s					; test=test -n "$DISPLAY"
 text/*; vim %s; needsterminal
 text/*; cat %s; copiousoutput
 
-#image/*; xv %s					; test=test -n "$DISPLAY"
+image/*; xv %s					; test=test -n "$DISPLAY"
 image/*; geeqie %s				; test=test -n "$DISPLAY"
 
 # media
 
+audio/x-mod; modplug123 %s
 audio/*; mplayer %s
 application/ogg; mplayer %s
 application/vnd.rn-realmedia; mplayer %s
@@ -123,7 +124,7 @@ video/*; mplayer %s				; test=test -n "$DISPLAY"
 application/x-shockwave-flash; firefox %s	; test=test -n "$DISPLAY"
 
 # vim bindings (unused) -- gvim uses terminal if no x available
-#text/*; vim %s; needsterminal 
+#text/*; vim %s; needsterminal
 #application/octet-stream; vim -c ':%!xxd' %s; needsterminal
 #text/x-asm; vim %s; needsterminal
 #application/x-perl; vim %s; needsterminal
