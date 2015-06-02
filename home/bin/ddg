@@ -30,7 +30,7 @@ You can manually specify the browser the link opens with by setting the
 
 For more information, see https://duckduckgo.com/params.html
 
-Copyright (C) 2010-2011 Dan Church.
+Copyright (C) 2010-2015 Dan Church.
 License GPLv3+: GNU GPL version 3 or later (http://gnu.org/licenses/gpl.html).
 This is free software: you are free to change and redistribute it. There is NO
 WARRANTY, to the extent permitted by law.
@@ -54,8 +54,6 @@ while getopts 'ds:qSe:v:h-' flag; do
 			QUERY_VAR='q'
 			;;
 		'q')
-			# use exact phrase matching by specifying variable used by
-			# Advanced Search
 			QUOTE=1
 			;;
 		'S')
@@ -105,6 +103,6 @@ if [ "${EXTRA_ARGS[*]#client=}" == "${EXTRA_ARGS[*]}" ]; then
 	EXTRA_ARGS+=("client=$(basename "$BROWSER")")
 fi
 
-url="https://duckduckgo.com/lite/?$(collate_args)"
+url="https://duckduckgo.com/?$(collate_args)"
 
 exec $BROWSER "$url"
