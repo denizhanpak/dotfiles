@@ -1,4 +1,8 @@
 --color-filename=bold yellow
 --color-match=bold red
 --color-lineno=bold blue
+
+# ignore CVS merge temps
+--ignore-file=match:/^\.#.+/
+
 # vi: ft=conf
