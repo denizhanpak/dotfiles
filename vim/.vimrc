@@ -299,6 +299,9 @@ let g:sh_fold_enabled = 3
 " don't use Ex mode; use Q for formatting (default)
 "map Q gq
 
+" allow backspacing over everything in insert mode (default)
+"set backspace=2
+
 " hitting ; in normal mode starts a command
 " (possible conflict: ; repeats last 'f' character jump)
 nnoremap ; :
@@ -376,9 +379,6 @@ set pastetoggle=<F11>
 " show line numbers
 set number
 
-" allow backspacing over everything in insert mode (default)
-"set backspace=2
-
 " show the cursor position all the time (default)
 "set ruler
 
@@ -392,6 +392,9 @@ set number
 
 " send more drawing commands to the terminal
 set ttyfast
+
+" disable startup message
+set shortmess+=I
 
 " ***************************
 " ***** display, colors *****
