@@ -526,9 +526,9 @@ function! s:GistUpdate(content, gistid, gistnm, desc) abort
   if res.status =~# '^2'
     let obj = webapi#json#decode(res.content)
     let loc = obj['html_url']
-    redraw | echomsg 'Done: '.loc
     let b:gist = {"id": a:gistid, "filename": filename}
     setlocal nomodified
+    redraw | echomsg 'Done: '.loc
   else
     let loc = ''
     echohl ErrorMsg | echomsg 'Post failed: ' . res.message | echohl None
@@ -550,10 +550,10 @@ function! s:GistDelete(gistid) abort
   \   "Content-Type": "application/json",
   \}, 'DELETE')
   if res.status =~# '^2'
-    redraw | echomsg 'Done: '
     if exists('b:gist')
       unlet b:gist
     endif
+    redraw | echomsg 'Done: '
   else
     echohl ErrorMsg | echomsg 'Delete failed: ' . res.message | echohl None
   endif
@@ -621,7 +621,6 @@ function! s:GistPost(content, private, desc, anonymous) abort
   if res.status =~# '^2'
     let obj = webapi#json#decode(res.content)
     let loc = obj['html_url']
-    redraw | echomsg 'Done: '.loc
     let b:gist = {
     \ "filename": filename,
     \ "id": matchstr(loc, '[^/]\+$'),
@@ -631,6 +630,7 @@ function! s:GistPost(content, private, desc, anonymous) abort
     if s:update_GistID(b:gist['id'])
       Gist -e
     endif
+    redraw | echomsg 'Done: '.loc
   else
     let loc = ''
     echohl ErrorMsg | echomsg 'Post failed: '. res.message | echohl None
@@ -677,7 +677,6 @@ function! s:GistPostBuffers(private, desc, anonymous) abort
   if res.status =~# '^2'
     let obj = webapi#json#decode(res.content)
     let loc = obj['html_url']
-    redraw | echomsg 'Done: '.loc
     let b:gist = {
     \ "filename": filename,
     \ "id": matchstr(loc, '[^/]\+$'),
@@ -687,6 +686,7 @@ function! s:GistPostBuffers(private, desc, anonymous) abort
     if s:update_GistID(b:gist['id'])
       Gist -e
     endif
+    redraw | echomsg 'Done: '.loc
   else
     let loc = ''
     echohl ErrorMsg | echomsg 'Post failed: ' . res.message | echohl None
@@ -891,10 +891,10 @@ function! gist#Gist(count, bang, line1, line2, ...) abort
         endif
         if exists('g:gist_clip_command')
           call system(g:gist_clip_command, url)
-        elseif has('unix') && !has('xterm_clipboard')
-          let @" = url
-        else
+        elseif has('clipboard')
           let @+ = url
+        else
+          let @" = url
         endif
       endif
     endif
