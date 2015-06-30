@@ -1,0 +1,3 @@
+[submodule "vim/.vim/_addons/vim-late_evening"]
+	path = vim/.vim/_addons/vim-late_evening
+	url = gh:h3xx/vim-late_evening.git
