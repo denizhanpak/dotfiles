@@ -22,3 +22,6 @@
 [submodule "vim/.vim/_addons/tagbar"]
 	path = vim/.vim/_addons/tagbar
 	url = git://github.com/majutsushi/tagbar.git
+[submodule "vim/.vim/_addons/vim-repeat"]
+	path = vim/.vim/_addons/vim-repeat
+	url = git://github.com/tpope/vim-repeat.git
