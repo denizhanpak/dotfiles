@@ -28,3 +28,6 @@
 [submodule "vim/.vim/_addons/vim-surround"]
 	path = vim/.vim/_addons/vim-surround
 	url = git://github.com/tpope/vim-surround.git
+[submodule "vim/.vim/_addons/vim-easymotion"]
+	path = vim/.vim/_addons/vim-easymotion
+	url = git://github.com/Lokaltog/vim-easymotion.git
