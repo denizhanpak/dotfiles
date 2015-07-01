@@ -4,3 +4,6 @@
 [submodule "vim/.vim/_addons/vim-eunuch"]
 	path = vim/.vim/_addons/vim-eunuch
 	url = git://github.com/tpope/vim-eunuch.git
+[submodule "vim/.vim/_addons/vim-gitgutter"]
+	path = vim/.vim/_addons/vim-gitgutter
+	url = git://github.com/airblade/vim-gitgutter.git
