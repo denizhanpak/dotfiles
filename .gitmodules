@@ -13,3 +13,6 @@
 [submodule "vim/.vim/_addons/vim-airline"]
 	path = vim/.vim/_addons/vim-airline
 	url = git://github.com/bling/vim-airline.git
+[submodule "vim/.vim/_addons/vim-fugitive"]
+	path = vim/.vim/_addons/vim-fugitive
+	url = git://github.com/tpope/vim-fugitive.git
