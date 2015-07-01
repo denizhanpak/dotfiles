@@ -10,3 +10,6 @@
 [submodule "vim/.vim/_addons/gist-vim"]
 	path = vim/.vim/_addons/gist-vim
 	url = git://github.com/mattn/gist-vim.git
+[submodule "vim/.vim/_addons/vim-airline"]
+	path = vim/.vim/_addons/vim-airline
+	url = git://github.com/bling/vim-airline.git
