@@ -19,3 +19,6 @@
 [submodule "vim/.vim/_addons/webapi-vim"]
 	path = vim/.vim/_addons/webapi-vim
 	url = git://github.com/mattn/webapi-vim.git
+[submodule "vim/.vim/_addons/tagbar"]
+	path = vim/.vim/_addons/tagbar
+	url = git://github.com/majutsushi/tagbar.git
