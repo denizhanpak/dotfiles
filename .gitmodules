@@ -31,3 +31,6 @@
 [submodule "vim/.vim/_addons/vim-easymotion"]
 	path = vim/.vim/_addons/vim-easymotion
 	url = git://github.com/Lokaltog/vim-easymotion.git
+[submodule "vim/.vim/_addons/vim-coffee-script"]
+	path = vim/.vim/_addons/vim-coffee-script
+	url = git://github.com/kchmck/vim-coffee-script.git
