@@ -24,7 +24,7 @@ aug views
 "				\ endif
 
 	" addendum: too bloated a solution; just save the line number as a jump
-	" position in " ~/.viminfo:
+	" position in ~/.viminfo:
 	au BufReadPost	*
 				\ if line("'\"") > 0 && line("'\"") <= line("$") |
 				\	exe "normal! g`\"" |
