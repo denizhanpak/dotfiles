@@ -1,0 +1,1 @@
+../_addons/perldoc-vim/plugin/perldoc.vim

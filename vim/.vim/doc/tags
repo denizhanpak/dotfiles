@@ -145,7 +145,6 @@ IDEShowlog	ide.txt	/*IDEShowlog*
 IDESyntax[!]	ide.txt	/*IDESyntax[!]*
 IDEToggle	ide.txt	/*IDEToggle*
 MatchError	matchit.txt	/*MatchError*
-Perldoc	perl_doc.txt	/*Perldoc*
 Vjdegd	vjde.txt	/*Vjdegd*
 Vjdeinfo	vjde.txt	/*Vjdeinfo*
 [%	matchit.txt	/*[%*
@@ -376,8 +375,6 @@ g:IDE_WindowIncrement	ide.txt	/*g:IDE_WindowIncrement*
 g:IDE_WindowWidth	ide.txt	/*g:IDE_WindowWidth*
 g:IDE_WipeAll	ide.txt	/*g:IDE_WipeAll*
 g:IDE_WipeAllRecursive	ide.txt	/*g:IDE_WipeAllRecursive*
-g:perldoc_flags	perl_doc.txt	/*g:perldoc_flags*
-g:perldoc_program	perl_doc.txt	/*g:perldoc_program*
 g:proj_run1	ide.txt	/*g:proj_run1*
 g:proj_run9	ide.txt	/*g:proj_run9*
 g:proj_run_fold1	ide.txt	/*g:proj_run_fold1*
@@ -495,14 +492,11 @@ matchit.vim	matchit.txt	/*matchit.vim*
 o_[%	matchit.txt	/*o_[%*
 o_]%	matchit.txt	/*o_]%*
 o_g%	matchit.txt	/*o_g%*
-perldoc-commands	perl_doc.txt	/*perldoc-commands*
-perldoc-info	perl_doc.txt	/*perldoc-info*
-perldoc-matches	perl_doc.txt	/*perldoc-matches*
-perldoc-problems	perl_doc.txt	/*perldoc-problems*
-perldoc-variables	perl_doc.txt	/*perldoc-variables*
-perldoc.txt	perl_doc.txt	/*perldoc.txt*
-perldoc_flags	perl_doc.txt	/*perldoc_flags*
-perldoc_program	perl_doc.txt	/*perldoc_program*
+perldoc-contents	perldoc.txt	/*perldoc-contents*
+perldoc-introduction	perldoc.txt	/*perldoc-introduction*
+perldoc-keymap	perldoc.txt	/*perldoc-keymap*
+perldoc-usage	perldoc.txt	/*perldoc-usage*
+perldoc.txt	perldoc.txt	/*perldoc.txt*
 remove_statusline_func	airline.txt	/*remove_statusline_func*
 surround	surround.txt	/*surround*
 surround-customizing	surround.txt	/*surround-customizing*
