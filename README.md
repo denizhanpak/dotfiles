@@ -4,6 +4,8 @@ Nothing to see here.
 
 ### Screenshots
 
+Vim color scheme: [late_evening](https://github.com/h3xx/vim-late_evening)
+
 ![gvim](https://raw.github.com/h3xx/dotfiles/master/screenshots/gvim.png)
 ![ls](https://raw.github.com/h3xx/dotfiles/master/screenshots/ls.png)
 ![mc](https://raw.github.com/h3xx/dotfiles/master/screenshots/mc.png)
