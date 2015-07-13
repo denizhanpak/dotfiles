@@ -37,3 +37,6 @@
 [submodule "vim/.vim/_addons/perldoc-vim"]
 	path = vim/.vim/_addons/perldoc-vim
 	url = git://github.com/hotchpotch/perldoc-vim.git
+[submodule "vim/.vim/_addons/javacomplete"]
+	path = vim/.vim/_addons/javacomplete
+	url = git://github.com/Shougo/javacomplete.git

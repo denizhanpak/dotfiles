@@ -1,0 +1,1 @@
+../_addons/javacomplete/plugin/androidcomplete.vim
