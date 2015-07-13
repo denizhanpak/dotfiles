@@ -496,7 +496,7 @@ else
 	nmap <silent> <F8> :TagbarToggle<CR>
 endif
 
-" *** gitgutter ***
+" *** vim-gitgutter ***
 " (save some CPU cycles)
 let g:gitgutter_realtime = 0
 let g:gitgutter_eager = 0
