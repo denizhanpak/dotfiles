@@ -40,3 +40,6 @@
 [submodule "vim/.vim/_addons/javacomplete"]
 	path = vim/.vim/_addons/javacomplete
 	url = git://github.com/Shougo/javacomplete.git
+[submodule "vim/.vim/_addons/vim-textobj-user"]
+	path = vim/.vim/_addons/vim-textobj-user
+	url = git://github.com/kana/vim-textobj-user.git
