@@ -46,3 +46,6 @@
 [submodule "vim/.vim/_addons/vim-textobj-indent"]
 	path = vim/.vim/_addons/vim-textobj-indent
 	url = git://github.com/kana/vim-textobj-indent.git
+[submodule "vim/.vim/_addons/vim-textobj-entire"]
+	path = vim/.vim/_addons/vim-textobj-entire
+	url = git://github.com/kana/vim-textobj-entire.git
