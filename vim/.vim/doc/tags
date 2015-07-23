@@ -31,6 +31,7 @@
 :TagbarShowTag	tagbar.txt	/*:TagbarShowTag*
 :TagbarToggle	tagbar.txt	/*:TagbarToggle*
 :TagbarTogglePause	tagbar.txt	/*:TagbarTogglePause*
+:TextobjEntireDefaultKeyMappings	textobj-entire.txt	/*:TextobjEntireDefaultKeyMappings*
 :TextobjIndentDefaultKeyMappings	textobj-indent.txt	/*:TextobjIndentDefaultKeyMappings*
 :Textobj{Plugin}DefaultKeyMappings	textobj-user.txt	/*:Textobj{Plugin}DefaultKeyMappings*
 <Over>(em-jumpback)	easymotion.txt	/*<Over>(em-jumpback)*
@@ -109,6 +110,8 @@
 <Plug>(easymotion-wl)	easymotion.txt	/*<Plug>(easymotion-wl)*
 <Plug>(easymotion-{find}2)	easymotion.txt	/*<Plug>(easymotion-{find}2)*
 <Plug>(easymotion-{find}n)	easymotion.txt	/*<Plug>(easymotion-{find}n)*
+<Plug>(textobj-entire-a)	textobj-entire.txt	/*<Plug>(textobj-entire-a)*
+<Plug>(textobj-entire-i)	textobj-entire.txt	/*<Plug>(textobj-entire-i)*
 <Plug>(textobj-indent-a)	textobj-indent.txt	/*<Plug>(textobj-indent-a)*
 <Plug>(textobj-indent-i)	textobj-indent.txt	/*<Plug>(textobj-indent-i)*
 <Plug>(textobj-indent-same-a)	textobj-indent.txt	/*<Plug>(textobj-indent-same-a)*
@@ -407,6 +410,7 @@ g:tagbar_updateonsave_maxlines	tagbar.txt	/*g:tagbar_updateonsave_maxlines*
 g:tagbar_vertical	tagbar.txt	/*g:tagbar_vertical*
 g:tagbar_width	tagbar.txt	/*g:tagbar_width*
 g:tagbar_zoomwidth	tagbar.txt	/*g:tagbar_zoomwidth*
+g:textobj_entire_no_default_key_mappings	textobj-entire.txt	/*g:textobj_entire_no_default_key_mappings*
 g:textobj_indent_no_default_key_mappings	textobj-indent.txt	/*g:textobj_indent_no_default_key_mappings*
 g:textobj_{plugin}_no_default_key_mappings	textobj-user.txt	/*g:textobj_{plugin}_no_default_key_mappings*
 gist-vim-faq	gist-vim.txt	/*gist-vim-faq*
@@ -540,6 +544,17 @@ textobj#user#move()	textobj-user.txt	/*textobj#user#move()*
 textobj#user#plugin()	textobj-user.txt	/*textobj#user#plugin()*
 textobj#user#select()	textobj-user.txt	/*textobj#user#select()*
 textobj#user#select_pair()	textobj-user.txt	/*textobj#user#select_pair()*
+textobj-entire	textobj-entire.txt	/*textobj-entire*
+textobj-entire-bugs	textobj-entire.txt	/*textobj-entire-bugs*
+textobj-entire-changelog	textobj-entire.txt	/*textobj-entire-changelog*
+textobj-entire-changelog-0.0.2	textobj-entire.txt	/*textobj-entire-changelog-0.0.2*
+textobj-entire-changelog-0.0.3	textobj-entire.txt	/*textobj-entire-changelog-0.0.3*
+textobj-entire-contents	textobj-entire.txt	/*textobj-entire-contents*
+textobj-entire-customizing	textobj-entire.txt	/*textobj-entire-customizing*
+textobj-entire-interface	textobj-entire.txt	/*textobj-entire-interface*
+textobj-entire-introduction	textobj-entire.txt	/*textobj-entire-introduction*
+textobj-entire-mappings	textobj-entire.txt	/*textobj-entire-mappings*
+textobj-entire.txt	textobj-entire.txt	/*textobj-entire.txt*
 textobj-indent	textobj-indent.txt	/*textobj-indent*
 textobj-indent-bugs	textobj-indent.txt	/*textobj-indent-bugs*
 textobj-indent-changelog	textobj-indent.txt	/*textobj-indent-changelog*
