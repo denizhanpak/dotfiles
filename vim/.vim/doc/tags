@@ -33,6 +33,7 @@
 :TagbarTogglePause	tagbar.txt	/*:TagbarTogglePause*
 :TextobjEntireDefaultKeyMappings	textobj-entire.txt	/*:TextobjEntireDefaultKeyMappings*
 :TextobjIndentDefaultKeyMappings	textobj-indent.txt	/*:TextobjIndentDefaultKeyMappings*
+:TextobjLineDefaultKeyMappings	textobj-line.txt	/*:TextobjLineDefaultKeyMappings*
 :Textobj{Plugin}DefaultKeyMappings	textobj-user.txt	/*:Textobj{Plugin}DefaultKeyMappings*
 <Over>(em-jumpback)	easymotion.txt	/*<Over>(em-jumpback)*
 <Over>(em-openallfold)	easymotion.txt	/*<Over>(em-openallfold)*
@@ -116,6 +117,8 @@
 <Plug>(textobj-indent-i)	textobj-indent.txt	/*<Plug>(textobj-indent-i)*
 <Plug>(textobj-indent-same-a)	textobj-indent.txt	/*<Plug>(textobj-indent-same-a)*
 <Plug>(textobj-indent-same-i)	textobj-indent.txt	/*<Plug>(textobj-indent-same-i)*
+<Plug>(textobj-line-a)	textobj-line.txt	/*<Plug>(textobj-line-a)*
+<Plug>(textobj-line-i)	textobj-line.txt	/*<Plug>(textobj-line-i)*
 <Plug>(textobj-{plugin}-{object}-{operation})	textobj-user.txt	/*<Plug>(textobj-{plugin}-{object}-{operation})*
 EMCommandLineMap	easymotion.txt	/*EMCommandLineMap*
 EMCommandLineNoreMap	easymotion.txt	/*EMCommandLineNoreMap*
@@ -412,6 +415,7 @@ g:tagbar_width	tagbar.txt	/*g:tagbar_width*
 g:tagbar_zoomwidth	tagbar.txt	/*g:tagbar_zoomwidth*
 g:textobj_entire_no_default_key_mappings	textobj-entire.txt	/*g:textobj_entire_no_default_key_mappings*
 g:textobj_indent_no_default_key_mappings	textobj-indent.txt	/*g:textobj_indent_no_default_key_mappings*
+g:textobj_line_no_default_key_mappings	textobj-line.txt	/*g:textobj_line_no_default_key_mappings*
 g:textobj_{plugin}_no_default_key_mappings	textobj-user.txt	/*g:textobj_{plugin}_no_default_key_mappings*
 gist-vim-faq	gist-vim.txt	/*gist-vim-faq*
 gist-vim-install	gist-vim.txt	/*gist-vim-install*
@@ -571,6 +575,19 @@ textobj-indent-interface	textobj-indent.txt	/*textobj-indent-interface*
 textobj-indent-introduction	textobj-indent.txt	/*textobj-indent-introduction*
 textobj-indent-mappings	textobj-indent.txt	/*textobj-indent-mappings*
 textobj-indent.txt	textobj-indent.txt	/*textobj-indent.txt*
+textobj-line	textobj-line.txt	/*textobj-line*
+textobj-line-bugs	textobj-line.txt	/*textobj-line-bugs*
+textobj-line-changelog	textobj-line.txt	/*textobj-line-changelog*
+textobj-line-changelog-0.0.0	textobj-line.txt	/*textobj-line-changelog-0.0.0*
+textobj-line-changelog-0.0.1	textobj-line.txt	/*textobj-line-changelog-0.0.1*
+textobj-line-changelog-0.0.2	textobj-line.txt	/*textobj-line-changelog-0.0.2*
+textobj-line-contents	textobj-line.txt	/*textobj-line-contents*
+textobj-line-default-key-mappings	textobj-line.txt	/*textobj-line-default-key-mappings*
+textobj-line-interface	textobj-line.txt	/*textobj-line-interface*
+textobj-line-introduction	textobj-line.txt	/*textobj-line-introduction*
+textobj-line-key-mappings	textobj-line.txt	/*textobj-line-key-mappings*
+textobj-line-named-key-mappings	textobj-line.txt	/*textobj-line-named-key-mappings*
+textobj-line.txt	textobj-line.txt	/*textobj-line.txt*
 textobj-user	textobj-user.txt	/*textobj-user*
 textobj-user-changelog	textobj-user.txt	/*textobj-user-changelog*
 textobj-user-changelog-0.0	textobj-user.txt	/*textobj-user-changelog-0.0*

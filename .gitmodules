@@ -49,3 +49,6 @@
 [submodule "vim/.vim/_addons/vim-textobj-entire"]
 	path = vim/.vim/_addons/vim-textobj-entire
 	url = git://github.com/kana/vim-textobj-entire.git
+[submodule "vim/.vim/_addons/vim-textobj-line"]
+	path = vim/.vim/_addons/vim-textobj-line
+	url = git://github.com/kana/vim-textobj-line.git
