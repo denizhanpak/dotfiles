@@ -22,8 +22,6 @@ Rxvt*scrollWithBuffer:		False
 Rxvt*scrollTtyKeypress:		True
 Rxvt*termName:			rxvt
 
-Rxvt*command:			/usr/bin/screen -xRR
-
 !!! XTerm
 
 XTerm*utmpDisplayId:		false
