@@ -10,7 +10,7 @@ CHROME_OPTIONS=(
 
 if [ "$SQUID" -ne 0 ]; then
 	CHROME_OPTIONS+=(
-		--proxy-server='http://localhost:3128'
+		#--proxy-server='http://localhost:3128'
 		--proxy-bypass-list='localhost'
 	)
 fi
