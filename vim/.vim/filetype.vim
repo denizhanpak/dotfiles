@@ -50,95 +50,95 @@ aug keycommands
 
 	" insert lorem ipsum text for all file types
 	au BufNewFile,BufRead	*
-				\ nmap <buffer> <silent> ,L :so ~/.vim/templates/keys/lorem_ipsum.vim<CR>
+				\ nnoremap <buffer> <silent> ,L :so ~/.vim/templates/keys/lorem_ipsum.vim<CR>
 
 	" use backslash-pipe (or [num]-backslash-pipe) to quickly comment lines
 
 	"" perl, sh, php and various config files use the # comment leader
 	au FileType		perl,sh,make,php,python,conf,gitconfig,alsaconf,resolv,config,mplayerconf,screen,procmail,muttrc,sudoers,gtkrc,readline,sshconfig,cvsrc,coffee,yaml,squid,remind
-				\ nmap <buffer> <silent> <leader>\| :s+^+#+\|nohls<CR> |
-				\ vmap <buffer> <silent> <leader>\| :s+^+#+\|nohls<CR>
+				\ nnoremap <buffer> <silent> <leader>\| :s+^+#+\|nohls<CR> |
+				\ vnoremap <buffer> <silent> <leader>\| :s+^+#+\|nohls<CR>
 
 	"" sql uses the -- comment leader
 	au FileType		sql
-				\ nmap <buffer> <silent> <leader>\| :s+^+--+\|nohls<CR> |
-				\ vmap <buffer> <silent> <leader>\| :s+^+--+\|nohls<CR>
+				\ nnoremap <buffer> <silent> <leader>\| :s+^+--+\|nohls<CR> |
+				\ vnoremap <buffer> <silent> <leader>\| :s+^+--+\|nohls<CR>
 
 	"" c, javascript and java use the // comment leader
 	"" (technically, so does PHP, but I like to pretend I'm writing Perl)
 	au FileType		c,javascript,java
-				\ nmap <buffer> <silent> <leader>\| :s+^+//+\|nohls<CR> |
-				\ vmap <buffer> <silent> <leader>\| :s+^+//+\|nohls<CR>
+				\ nnoremap <buffer> <silent> <leader>\| :s+^+//+\|nohls<CR> |
+				\ vnoremap <buffer> <silent> <leader>\| :s+^+//+\|nohls<CR>
 
 	"" vim uses the " comment leader
 	au FileType		vim
-				\ nmap <buffer> <silent> <leader>\| :s+^+"+\|nohls<CR> |
-				\ vmap <buffer> <silent> <leader>\| :s+^+"+\|nohls<CR>
+				\ nnoremap <buffer> <silent> <leader>\| :s+^+"+\|nohls<CR> |
+				\ vnoremap <buffer> <silent> <leader>\| :s+^+"+\|nohls<CR>
 
 	"" Xdefaults use the ! comment leader
 	au FileType		xdefaults
-				\ nmap <buffer> <silent> <leader>\| :s+^+!+\|nohls<CR> |
-				\ vmap <buffer> <silent> <leader>\| :s+^+!+\|nohls<CR>
+				\ nnoremap <buffer> <silent> <leader>\| :s+^+!+\|nohls<CR> |
+				\ vnoremap <buffer> <silent> <leader>\| :s+^+!+\|nohls<CR>
 
 
 	"" ini and [shudder] asm use the ; comment leader
 	au FileType		dosini,asm
-				\ nmap <buffer> <silent> <leader>\| :s+^+;+\|nohls<CR> |
-				\ vmap <buffer> <silent> <leader>\| :s+^+;+\|nohls<CR>
+				\ nnoremap <buffer> <silent> <leader>\| :s+^+;+\|nohls<CR> |
+				\ vnoremap <buffer> <silent> <leader>\| :s+^+;+\|nohls<CR>
 
 	" web functions
 	" ,h - insert HTML header in HTML files
 	au FileType		html
-				\ nmap <buffer> <silent> ,h :so ~/.vim/templates/keys/html5-h.vim<CR> |
-				\ nmap <buffer> <silent> ,j :so ~/.vim/templates/keys/html5-j.vim<CR>
+				\ nnoremap <buffer> <silent> ,h :so ~/.vim/templates/keys/html5-h.vim<CR> |
+				\ nnoremap <buffer> <silent> ,j :so ~/.vim/templates/keys/html5-j.vim<CR>
 
 	" ,h - insert XML header in XML files (though it's already inserted
 	"      upon BufNewFile)
 	au FileType		xml
-				\ nmap <buffer> <silent> ,h :so ~/.vim/templates/keys/xml-h.vim<CR>
+				\ nnoremap <buffer> <silent> ,h :so ~/.vim/templates/keys/xml-h.vim<CR>
 
 	" Perl debugging functions
 	" ,d - insert Data::Dumper call
 	" ,g - insert Getopt::Std option processing
 	au FileType		perl
-				\ nmap <buffer> <silent> ,d :so ~/.vim/templates/keys/perl-d.vim<CR> |
-				\ nmap <buffer> <silent> ,g :so ~/.vim/templates/keys/perl-g.vim<CR>
+				\ nnoremap <buffer> <silent> ,d :so ~/.vim/templates/keys/perl-d.vim<CR> |
+				\ nnoremap <buffer> <silent> ,g :so ~/.vim/templates/keys/perl-g.vim<CR>
 
 	" Shell functions
 	" ,g - insert getopts processing block
 	" ,t - insert call to mktemp(1)
 	" ,T - insert shell-script cleanup code that uses trap
 	au FileType		sh
-				\ nmap <buffer> <silent> ,g :so ~/.vim/templates/keys/sh-getopts.vim<CR> |
-				\ nmap <buffer> <silent> ,t :so ~/.vim/templates/keys/sh-mktemp.vim<CR> |
-				\ nmap <buffer> <silent> ,T :so ~/.vim/templates/keys/sh-trap-cleanup.vim<CR> |
-				\ nmap <buffer> <silent> ,Z :so ~/.vim/templates/keys/sh-help_message.vim<CR>
+				\ nnoremap <buffer> <silent> ,g :so ~/.vim/templates/keys/sh-getopts.vim<CR> |
+				\ nnoremap <buffer> <silent> ,t :so ~/.vim/templates/keys/sh-mktemp.vim<CR> |
+				\ nnoremap <buffer> <silent> ,T :so ~/.vim/templates/keys/sh-trap-cleanup.vim<CR> |
+				\ nnoremap <buffer> <silent> ,Z :so ~/.vim/templates/keys/sh-help_message.vim<CR>
 
 	" ,v - insertion of vim filetype specification
 	au FileType		sh,perl,html,xml,c,cpp,conf,mplayerconf,vim
-				\ nmap <buffer> <silent> ,v :so ~/.vim/templates/keys/hintline-filetype.vim<CR>
+				\ nnoremap <buffer> <silent> ,v :so ~/.vim/templates/keys/hintline-filetype.vim<CR>
 
 	" ,h - insert <?php header in php files
 	" ,E - throw new Exception
 	" ,c - insert filename (without .php), useful for class files
 	au FileType		php
-				\ nmap <buffer> <silent> ,h :so ~/.vim/templates/keys/php-h.vim<CR> |
-				\ nmap <buffer> <silent> ,E :so ~/.vim/templates/keys/php-E.vim<CR> |
-				\ nmap <buffer> <silent> ,c :so ~/.vim/templates/keys/php-c.vim<CR>
+				\ nnoremap <buffer> <silent> ,h :so ~/.vim/templates/keys/php-h.vim<CR> |
+				\ nnoremap <buffer> <silent> ,E :so ~/.vim/templates/keys/php-E.vim<CR> |
+				\ nnoremap <buffer> <silent> ,c :so ~/.vim/templates/keys/php-c.vim<CR>
 
 	" build script build files
 	" ,h - insert header file from /tmp/svn/_configure/__header
 	" ,s - insert command for writing slack-desc
 	" ,f - insert finisher file from /tmp/svn/_configure/__finisher
 	au BufNewFile,BufRead	*/_configure/*-build,*/build/scripts/*-build
-				\ nmap <buffer> <silent> ,h :so ~/.vim/templates/keys/_configure-h.vim<CR> |
-				\ nmap <buffer> <silent> ,H :so ~/.vim/templates/keys/_configure-H.vim<CR> |
-				\ nmap <buffer> <silent> ,s :so ~/.vim/templates/keys/_configure-s.vim<CR> |
-				\ nmap <buffer> <silent> ,f :r /tmp/svn/_configure/__finisher<CR>
+				\ nnoremap <buffer> <silent> ,h :so ~/.vim/templates/keys/_configure-h.vim<CR> |
+				\ nnoremap <buffer> <silent> ,H :so ~/.vim/templates/keys/_configure-H.vim<CR> |
+				\ nnoremap <buffer> <silent> ,s :so ~/.vim/templates/keys/_configure-s.vim<CR> |
+				\ nnoremap <buffer> <silent> ,f :r /tmp/svn/_configure/__finisher<CR>
 	au BufNewFile,BufRead	*/_configure/*,*/build/scripts/*
-				\ nmap <buffer> <silent> ,p :so ~/.vim/templates/keys/_configure-p.vim<CR> |
-				\ nmap <buffer> <silent> ,l :so ~/.vim/templates/keys/_configure-l.vim<CR> |
-				\ nmap <buffer> <silent> ,d :so ~/.vim/templates/keys/_configure-d.vim<CR>
+				\ nnoremap <buffer> <silent> ,p :so ~/.vim/templates/keys/_configure-p.vim<CR> |
+				\ nnoremap <buffer> <silent> ,l :so ~/.vim/templates/keys/_configure-l.vim<CR> |
+				\ nnoremap <buffer> <silent> ,d :so ~/.vim/templates/keys/_configure-d.vim<CR>
 
 aug END " keycommands
 
