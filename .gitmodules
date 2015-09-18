@@ -52,3 +52,6 @@
 [submodule "vim/.vim/_addons/vim-textobj-line"]
 	path = vim/.vim/_addons/vim-textobj-line
 	url = git://github.com/kana/vim-textobj-line.git
+[submodule "vim/.vim/_addons/PHP-Indenting-for-VIm"]
+	path = vim/.vim/_addons/PHP-Indenting-for-VIm
+	url = gh:2072/PHP-Indenting-for-VIm.git
