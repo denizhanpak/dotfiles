@@ -158,6 +158,13 @@ IDEShowlog	ide.txt	/*IDEShowlog*
 IDESyntax[!]	ide.txt	/*IDESyntax[!]*
 IDEToggle	ide.txt	/*IDEToggle*
 MatchError	matchit.txt	/*MatchError*
+PHP_BracesAtCodeLevel	PHPIndent.txt	/*PHP_BracesAtCodeLevel*
+PHP_autoformatcomment	PHPIndent.txt	/*PHP_autoformatcomment*
+PHP_default_indenting	PHPIndent.txt	/*PHP_default_indenting*
+PHP_outdentSLComments	PHPIndent.txt	/*PHP_outdentSLComments*
+PHP_outdentphpescape	PHPIndent.txt	/*PHP_outdentphpescape*
+PHP_removeCRwhenUnix	PHPIndent.txt	/*PHP_removeCRwhenUnix*
+PHP_vintage_case_default_indent	PHPIndent.txt	/*PHP_vintage_case_default_indent*
 [%	matchit.txt	/*[%*
 ]%	matchit.txt	/*]%*
 __IDE_Project__	ide.txt	/*__IDE_Project__*
@@ -264,6 +271,7 @@ eunuch-:Wall	eunuch.txt	/*eunuch-:Wall*
 eunuch-about	eunuch.txt	/*eunuch-about*
 eunuch-commands	eunuch.txt	/*eunuch-commands*
 eunuch.txt	eunuch.txt	/*eunuch.txt*
+ft-php-indent	PHPIndent.txt	/*ft-php-indent*
 fugitive	fugitive.txt	/*fugitive*
 fugitive#head(...)	fugitive.txt	/*fugitive#head(...)*
 fugitive#statusline()	fugitive.txt	/*fugitive#statusline()*
@@ -511,6 +519,9 @@ perldoc-introduction	perldoc.txt	/*perldoc-introduction*
 perldoc-keymap	perldoc.txt	/*perldoc-keymap*
 perldoc-usage	perldoc.txt	/*perldoc-usage*
 perldoc.txt	perldoc.txt	/*perldoc.txt*
+php-comment	PHPIndent.txt	/*php-comment*
+php-indent	PHPIndent.txt	/*php-indent*
+php-indenting	PHPIndent.txt	/*php-indenting*
 remove_statusline_func	airline.txt	/*remove_statusline_func*
 surround	surround.txt	/*surround*
 surround-customizing	surround.txt	/*surround-customizing*
