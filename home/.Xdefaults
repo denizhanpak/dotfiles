@@ -27,8 +27,6 @@ Rxvt*termName:			rxvt
 XTerm*utmpDisplayId:		false
 XTerm*utmpInhibit:		true
 
-!XTerm*locale:			UTF-8
-XTerm*utf8:			1
 XTerm*showMissingGlyphs:	true
 XTerm*wideFont:			DejaVu Sans-10:minspace=true
 XTerm*pointerMode:		0
