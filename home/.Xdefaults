@@ -37,7 +37,7 @@ XTerm*foreground:		gray
 
 XTerm*title:			xterm
 !XTerm*geometry:		80x90
-XTerm*geometry:			120x90
+XTerm*geometry:			120x75
 XTerm*font:			6x10
 XTerm*font1:			6x13
 
@@ -47,8 +47,8 @@ XTerm*boldFont:			6x10
 !! use fonts from xft
 !XTerm*faceName:			DejaVu Sans Mono:minspace=true
 !XTerm*faceSize:			10
-!XTerm*faceName:			Terminus:minspace=true
-!XTerm*faceSize:			8
+XTerm*faceName:			Terminus:minspace=true
+XTerm*faceSize:			8
 
 !XTerm*wideChars:		false
 !XTerm*boldMode:			false
