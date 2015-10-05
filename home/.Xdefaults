@@ -38,17 +38,28 @@ XTerm*foreground:		gray
 XTerm*title:			xterm
 !XTerm*geometry:		80x90
 XTerm*geometry:			120x75
-XTerm*font:			6x10
+!XTerm*font:			6x10
 XTerm*font1:			6x13
 
 !! (this fixes it!)
-XTerm*boldFont:			6x10
+!XTerm*boldFont:			6x10
+
+!! alternate fonts
+XTerm*font:			-*-terminus-medium-r-normal-*-12-*-*-*-*-*-*-*
+XTerm*boldFont:			-*-terminus-bold-r-normal-*-12-*-*-*-*-*-*-*
+!XTerm*font:			-*-ohsnap-medium-r-normal-*-11-*-*-*-*-*-*-*
+!XTerm*boldFont:			-*-ohsnap-bold-r-normal-*-11-*-*-*-*-*-*-*
+!XTerm*font:			-*-proggycleansz-medium-r-normal-*-13-*-*-*-*-*-*-*
+!XTerm*boldFont:			-*-proggycleansz-bold-r-normal-*-13-*-*-*-*-*-*-*
+!XTerm*font:			-*-proggysquaresz-medium-r-normal-*-11-*-*-*-*-*-*-*
+!XTerm*boldFont:			-*-proggysquaresz-bold-r-normal-*-11-*-*-*-*-*-*-*
 
 !! use fonts from xft
 !XTerm*faceName:			DejaVu Sans Mono:minspace=true
 !XTerm*faceSize:			10
-XTerm*faceName:			Terminus:minspace=true
-XTerm*faceSize:			8
+!XTerm*faceName:			Terminus:minspace=true
+!XTerm*faceName:			Terminus:minspace=true
+!XTerm*faceSize:			8
 
 !XTerm*wideChars:		false
 !XTerm*boldMode:			false
