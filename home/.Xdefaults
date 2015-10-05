@@ -72,12 +72,17 @@ XTerm*boldFont:			-*-terminus-bold-r-normal-*-12-*-*-*-*-*-*-*
 
 !XTerm*veryBoldFont:		true
 !XTerm*colorAttrMode:		true
-XTerm*boldColors:		true
+!XTerm*boldColors:		true
 !XTerm*veryBoldColors:		4
 
 !XTerm*boldMode:			false
-XTerm*colorBDMode:		true
-XTerm*colorBD:			white
+!XTerm*colorBDMode:		true
+!XTerm*colorBD:			white
+
+! (this was a fix in place for some reason, but commenting them out didn't do anything O__o)
+!!XTerm*boldColors:		true
+!!XTerm*colorBDMode:		true
+!!XTerm*colorBD:			white
 
 !! tell programs xterm can support 256 colors
 !! addendum: doesn't work without termcap entry >:-E
