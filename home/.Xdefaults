@@ -53,6 +53,8 @@ XTerm*boldFont:			-*-terminus-bold-r-normal-*-12-*-*-*-*-*-*-*
 !XTerm*boldFont:			-*-proggycleansz-bold-r-normal-*-13-*-*-*-*-*-*-*
 !XTerm*font:			-*-proggysquaresz-medium-r-normal-*-11-*-*-*-*-*-*-*
 !XTerm*boldFont:			-*-proggysquaresz-bold-r-normal-*-11-*-*-*-*-*-*-*
+!XTerm*font:			-*-envypn-medium-r-normal-*-13-*-*-*-*-*-*-*
+!XTerm*boldFont:			-*-envypn-bold-r-normal-*-13-*-*-*-*-*-*-* (not an actual font)
 
 !! use fonts from xft
 !XTerm*faceName:			DejaVu Sans Mono:minspace=true
