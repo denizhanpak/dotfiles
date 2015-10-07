@@ -74,3 +74,6 @@
 	path = vim/.vim/_addons/PHP-Indenting-for-VIm
 	url = gh:2072/PHP-Indenting-for-VIm.git
 	branch = master
+[submodule "font/ohsnapmod"]
+	path = font/ohsnapmod
+	url = gh:h3xx/ohsnapmod.git
