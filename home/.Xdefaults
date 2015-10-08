@@ -57,8 +57,8 @@ XTerm*font1:			6x13
 !XTerm*boldFont:			-*-envypn-bold-r-normal-*-13-*-*-*-*-*-*-* (not an actual font)
 !XTerm*font:			-*-leggie-medium-r-normal-*-12-*-*-*-*-*-*-*
 !XTerm*boldFont:			-*-leggie-bold-r-normal-*-12-*-*-*-*-*-*-* (not an actual font)
-XTerm*font:			-*-ohsnapmod-medium-r-normal-*-11-*-*-*-*-*-*-*
-XTerm*boldFont:			-*-ohsnapmod-bold-r-normal-*-11-*-*-*-*-*-*-*
+XTerm*font:			-*-ohsnapmod-medium-r-normal-*-12-*-*-*-*-*-*-*
+XTerm*boldFont:			-*-ohsnapmod-bold-r-normal-*-12-*-*-*-*-*-*-*
 
 !! use fonts from xft
 !XTerm*faceName:			DejaVu Sans Mono:minspace=true
