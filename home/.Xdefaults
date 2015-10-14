@@ -78,13 +78,11 @@ XTerm*boldFont:			-*-ohsnapmod-bold-r-normal-*-12-*-*-*-*-*-*-*
 !XTerm*veryBoldColors:		4
 
 !XTerm*boldMode:			false
-!XTerm*colorBDMode:		true
-!XTerm*colorBD:			white
 
-! (this was a fix in place for some reason, but commenting them out didn't do anything O__o)
-!!XTerm*boldColors:		true
-!!XTerm*colorBDMode:		true
-!!XTerm*colorBD:			white
+!! bold=bright colors (as well as bold font)
+XTerm*colorBDMode:		true
+XTerm*boldColors:		true
+XTerm*colorBD:			white
 
 !! tell programs xterm can support 256 colors
 !! addendum: doesn't work without termcap entry >:-E
