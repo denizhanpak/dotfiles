@@ -37,7 +37,7 @@ XTerm*foreground:		gray
 
 XTerm*title:			xterm
 !XTerm*geometry:		80x90
-XTerm*geometry:			120x75
+XTerm*geometry:			104x75
 !XTerm*font:			6x10
 XTerm*font1:			6x13
 
