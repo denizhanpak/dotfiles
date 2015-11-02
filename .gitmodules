@@ -77,3 +77,4 @@
 [submodule "font/ohsnapmod"]
 	path = font/ohsnapmod
 	url = gh:h3xx/ohsnapmod.git
+	branch = master
