@@ -106,6 +106,7 @@ XTerm*colorBD:			white
 *VT100.color14:		#66ffff
 *VT100.color15:		#ffffff
 *VT100*cursorColor:	lightgreen
+*VT100*cursorBlink:	true
 
 !! characters
 !! 1-5: fixes not being able to backspace
