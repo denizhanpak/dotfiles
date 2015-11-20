@@ -81,3 +81,4 @@
 [submodule "vim/.vim/_addons/ctrlp.vim"]
 	path = vim/.vim/_addons/ctrlp.vim
 	url = git://github.com/kien/ctrlp.vim.git
+	branch = master
