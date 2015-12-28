@@ -85,6 +85,8 @@
 [submodule "mutt/mutt-colors-neonwolf"]
 	path = mutt/mutt-colors-neonwolf
 	url = git@github.com:h3xx/mutt-colors-neonwolf.git
+	branch = master
 [submodule "tig/.tig/tig-colors-neonwolf"]
 	path = tig/.tig/tig-colors-neonwolf
-	url = gh:h3xx/tig-colors-neonwolf.git
+	url = git@github.com:h3xx/tig-colors-neonwolf.git
+	branch = master
