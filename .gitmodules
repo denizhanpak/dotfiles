@@ -97,3 +97,4 @@
 [submodule "git/.gitfiles/git-colors-neonwolf"]
 	path = git/.gitfiles/git-colors-neonwolf
 	url = git@github.com:h3xx/git-colors-neonwolf.git
+	branch = master
