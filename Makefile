@@ -11,6 +11,11 @@ fix:
 		rm ~/.ipager &&\
 		ln -svTf "$$nl" ~/.ipager ;\
 	fi)
+	(if [[ "$$(readlink ~/.gitconfig)" =~ dotfiles/home ]]; then \
+		nl="$$(readlink ~/.gitconfig |sed -e 's,dotfiles/home,dotfiles/git,')" ;\
+		rm ~/.gitconfig &&\
+		ln -svTf "$$nl" ~/.gitconfig ;\
+	fi)
 
 dootfiles:
 	@echo "thank mr skeltal"
