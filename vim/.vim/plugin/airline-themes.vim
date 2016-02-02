@@ -1,0 +1,1 @@
+../_addons/vim-airline-themes/plugin/airline-themes.vim
