@@ -74,6 +74,10 @@
 	path = vim/.vim/_addons/vim-textobj-line
 	url = git://github.com/kana/vim-textobj-line.git
 	branch = master
+[submodule "vim/.vim/_addons/vim-textobj-parameter"]
+	path = vim/.vim/_addons/vim-textobj-parameter
+	url = https://github.com/sgur/vim-textobj-parameter.git
+	branch = master
 [submodule "vim/.vim/_addons/PHP-Indenting-for-VIm"]
 	path = vim/.vim/_addons/PHP-Indenting-for-VIm
 	url = git://github.com/2072/PHP-Indenting-for-VIm.git
