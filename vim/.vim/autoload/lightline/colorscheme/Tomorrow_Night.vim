@@ -1,0 +1,1 @@
+../../../_addons/lightline.vim/autoload/lightline/colorscheme/Tomorrow_Night.vim
