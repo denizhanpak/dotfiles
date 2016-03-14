@@ -125,7 +125,7 @@ XTerm*colorBD:			white
 !XTerm*ttyModes:		erase ^h
 
 !! select paths/URLs with 3 clicks
-XTerm*on3Clicks: regex ([[:alpha:]]+://)?([[:alnum:]!#+,./=?@_~-]|(%[[:xdigit:]][[:xdigit:]]))+
+XTerm*on3Clicks: regex ([[:alpha:]]+://)?([[:alnum:]!#+,./=?&@_~-]|(%[[:xdigit:]][[:xdigit:]]))+
 
 !! UXTerm
 
