@@ -31,7 +31,7 @@
 	subinit		= submodule init
 	subco		= submodule foreach git checkout
 	submaster	= submodule foreach git checkout master
-	subpull		= !.git-subpull.sh
+	subpull		= !~/.gitfiles/bin/git-subpull.sh
 	w		= whatchanged
 	url		= remote -v	# list checkout urls
 	logg		= log --graph --pretty=format:'%C(bold 232 154)%h%C(reset) %C(bold 165 235)%cd%C(reset) %C(bold 39 235)%an%C(reset)%C(bold 121 235)%d%C(reset) %s' --date=short
