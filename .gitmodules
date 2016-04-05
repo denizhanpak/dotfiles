@@ -98,3 +98,7 @@
 	path = vim/.vim/_addons/lightline.vim
 	url = https://github.com/itchyny/lightline.vim.git
 	branch = master
+[submodule "vim/.vim/_addons/vim-textobj-function"]
+	path = vim/.vim/_addons/vim-textobj-function
+	url = git://github.com/kana/vim-textobj-function.git
+	branch = master
