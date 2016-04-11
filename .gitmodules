@@ -1,77 +1,77 @@
 [submodule "vim/.vim/_addons/vim-late_evening"]
-	path = vim/.vim/_addons/vim-late_evening
+	path = vim/.vim/pack/dist/opt/vim-late_evening
 	url = git@github.com:h3xx/vim-late_evening.git
 	branch = master
 [submodule "vim/.vim/_addons/vim-eunuch"]
-	path = vim/.vim/_addons/vim-eunuch
+	path = vim/.vim/pack/dist/opt/vim-eunuch
 	url = git://github.com/tpope/vim-eunuch.git
 	branch = master
 [submodule "vim/.vim/_addons/vim-gitgutter"]
-	path = vim/.vim/_addons/vim-gitgutter
+	path = vim/.vim/pack/dist/opt/vim-gitgutter
 	url = git://github.com/airblade/vim-gitgutter.git
 	branch = master
 [submodule "vim/.vim/_addons/gist-vim"]
-	path = vim/.vim/_addons/gist-vim
+	path = vim/.vim/pack/dist/opt/gist-vim
 	url = git://github.com/mattn/gist-vim.git
 	branch = master
 [submodule "vim/.vim/_addons/vim-fugitive"]
-	path = vim/.vim/_addons/vim-fugitive
+	path = vim/.vim/pack/dist/opt/vim-fugitive
 	url = git://github.com/tpope/vim-fugitive.git
 	branch = master
 [submodule "vim/.vim/_addons/webapi-vim"]
-	path = vim/.vim/_addons/webapi-vim
+	path = vim/.vim/pack/dist/opt/webapi-vim
 	url = git://github.com/mattn/webapi-vim.git
 	branch = master
 [submodule "vim/.vim/_addons/tagbar"]
-	path = vim/.vim/_addons/tagbar
+	path = vim/.vim/pack/dist/opt/tagbar
 	url = git://github.com/majutsushi/tagbar.git
 	branch = master
 [submodule "vim/.vim/_addons/vim-repeat"]
-	path = vim/.vim/_addons/vim-repeat
+	path = vim/.vim/pack/dist/opt/vim-repeat
 	url = git://github.com/tpope/vim-repeat.git
 	branch = master
 [submodule "vim/.vim/_addons/vim-surround"]
-	path = vim/.vim/_addons/vim-surround
+	path = vim/.vim/pack/dist/opt/vim-surround
 	url = git://github.com/tpope/vim-surround.git
 	branch = master
 [submodule "vim/.vim/_addons/vim-easymotion"]
-	path = vim/.vim/_addons/vim-easymotion
+	path = vim/.vim/pack/dist/opt/vim-easymotion
 	url = git://github.com/Lokaltog/vim-easymotion.git
 	branch = master
 [submodule "vim/.vim/_addons/vim-coffee-script"]
-	path = vim/.vim/_addons/vim-coffee-script
+	path = vim/.vim/pack/dist/opt/vim-coffee-script
 	url = git://github.com/kchmck/vim-coffee-script.git
 	branch = master
 [submodule "vim/.vim/_addons/perldoc-vim"]
-	path = vim/.vim/_addons/perldoc-vim
+	path = vim/.vim/pack/dist/opt/perldoc-vim
 	url = git://github.com/hotchpotch/perldoc-vim.git
 	branch = master
 [submodule "vim/.vim/_addons/javacomplete"]
-	path = vim/.vim/_addons/javacomplete
+	path = vim/.vim/pack/dist/opt/javacomplete
 	url = git://github.com/Shougo/javacomplete.git
 	branch = master
 [submodule "vim/.vim/_addons/vim-textobj-user"]
-	path = vim/.vim/_addons/vim-textobj-user
+	path = vim/.vim/pack/dist/opt/vim-textobj-user
 	url = git://github.com/kana/vim-textobj-user.git
 	branch = master
 [submodule "vim/.vim/_addons/vim-textobj-indent"]
-	path = vim/.vim/_addons/vim-textobj-indent
+	path = vim/.vim/pack/dist/opt/vim-textobj-indent
 	url = git://github.com/kana/vim-textobj-indent.git
 	branch = master
 [submodule "vim/.vim/_addons/vim-textobj-entire"]
-	path = vim/.vim/_addons/vim-textobj-entire
+	path = vim/.vim/pack/dist/opt/vim-textobj-entire
 	url = git://github.com/kana/vim-textobj-entire.git
 	branch = master
 [submodule "vim/.vim/_addons/vim-textobj-line"]
-	path = vim/.vim/_addons/vim-textobj-line
+	path = vim/.vim/pack/dist/opt/vim-textobj-line
 	url = git://github.com/kana/vim-textobj-line.git
 	branch = master
 [submodule "vim/.vim/_addons/vim-textobj-parameter"]
-	path = vim/.vim/_addons/vim-textobj-parameter
+	path = vim/.vim/pack/dist/opt/vim-textobj-parameter
 	url = https://github.com/sgur/vim-textobj-parameter.git
 	branch = master
 [submodule "vim/.vim/_addons/PHP-Indenting-for-VIm"]
-	path = vim/.vim/_addons/PHP-Indenting-for-VIm
+	path = vim/.vim/pack/dist/opt/PHP-Indenting-for-VIm
 	url = git://github.com/2072/PHP-Indenting-for-VIm.git
 	branch = master
 [submodule "font/ohsnapmod"]
@@ -79,7 +79,7 @@
 	url = git://github.com/h3xx/ohsnapmod.git
 	branch = master
 [submodule "vim/.vim/_addons/ctrlp.vim"]
-	path = vim/.vim/_addons/ctrlp.vim
+	path = vim/.vim/pack/dist/opt/ctrlp.vim
 	url = git://github.com/ctrlpvim/ctrlp.vim.git
 	branch = master
 [submodule "mutt/mutt-colors-neonwolf"]
@@ -95,10 +95,10 @@
 	url = git@github.com:h3xx/git-colors-neonwolf.git
 	branch = master
 [submodule "vim/.vim/_addons/lightline.vim"]
-	path = vim/.vim/_addons/lightline.vim
+	path = vim/.vim/pack/dist/opt/lightline.vim
 	url = https://github.com/itchyny/lightline.vim.git
 	branch = master
 [submodule "vim/.vim/_addons/vim-textobj-function"]
-	path = vim/.vim/_addons/vim-textobj-function
+	path = vim/.vim/pack/dist/opt/vim-textobj-function
 	url = git://github.com/kana/vim-textobj-function.git
 	branch = master
