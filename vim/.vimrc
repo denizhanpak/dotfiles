@@ -633,3 +633,26 @@ endif
 if ! &diff
 	tab all
 endif
+
+packadd PHP-Indenting-for-VIm
+packadd ctrlp.vim
+packadd gist-vim
+packadd javacomplete
+packadd lightline.vim
+packadd perldoc-vim
+packadd tagbar
+packadd vim-coffee-script
+packadd vim-easymotion
+packadd vim-eunuch
+packadd vim-fugitive
+packadd vim-gitgutter
+packadd vim-late_evening
+packadd vim-repeat
+packadd vim-surround
+packadd vim-textobj-entire
+packadd vim-textobj-function
+packadd vim-textobj-indent
+packadd vim-textobj-line
+packadd vim-textobj-parameter
+packadd vim-textobj-user
+packadd webapi-vim
