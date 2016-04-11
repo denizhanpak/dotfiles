@@ -423,6 +423,7 @@ autocmd ColorScheme *		hi ExtraWhitespace term=reverse ctermbg=red guibg=red
 autocmd BufEnter,WinEnter *	match ExtraWhitespace /\s\+$\| \+\ze\t/
 
 " Replace blinding gvim color scheme (makes terminal vim brighter)
+packadd vim-late_evening
 colorscheme late_evening
 
 " correct some colors
@@ -646,7 +647,6 @@ packadd vim-easymotion
 packadd vim-eunuch
 packadd vim-fugitive
 packadd vim-gitgutter
-packadd vim-late_evening
 packadd vim-repeat
 packadd vim-surround
 packadd vim-textobj-entire
