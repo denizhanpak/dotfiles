@@ -1,1 +1,0 @@
-../_addons/lightline.vim/autoload/lightline.vim

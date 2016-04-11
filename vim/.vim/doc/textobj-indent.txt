@@ -1,1 +1,0 @@
-../_addons/vim-textobj-indent/doc/textobj-indent.txt

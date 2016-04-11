@@ -1,1 +1,0 @@
-../../_addons/vim-coffee-script/after/syntax/haml.vim

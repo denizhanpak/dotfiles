@@ -1,1 +1,0 @@
-../_addons/vim-coffee-script/autoload/coffee.vim

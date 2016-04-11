@@ -1,1 +1,0 @@
-../../_addons/vim-textobj-function/plugin/textobj/function.vim

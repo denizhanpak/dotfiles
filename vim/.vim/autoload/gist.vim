@@ -1,1 +1,0 @@
-../_addons/gist-vim/autoload/gist.vim
