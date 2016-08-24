@@ -161,13 +161,13 @@ _manpages() {
 
 	COMP_WORDBREAKS="${COMP_WORDBREAKS//:}"
 
-	[[ "${COMP_WORDS[1]}" == */* ]] && return
+	[[ ${COMP_WORDS[1]} == */* ]] && return
 
-	[ "$COMP_CWORD" -gt 1 ] && sect="${COMP_WORDS[1]}"
+	[[ $COMP_CWORD -gt 1 ]] && sect="${COMP_WORDS[1]}"
 
 	mans+=('/usr/man/man'${sect}"/${2}"*)
 
-	[ -f "${mans[0]}" ] || return
+	[[ -f ${mans[0]} ]] || return
 
 	mans=("${mans[@]#/usr/man/man[0-9]/}")
 	COMPREPLY=("${mans[@]%.[0-9]*}")
