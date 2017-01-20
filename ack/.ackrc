@@ -5,4 +5,5 @@
 # ignore CVS merge temps
 --ignore-file=match:/^\.#.+/
 
+--ignore-file=match:/\.scssc$/
 # vi: ft=conf
