@@ -547,6 +547,9 @@ let g:ctrlp_prompt_mappings = {
 	\ 'AcceptSelection("t")': ['<c-g>'],
 	\ }
 
+" *** neocomplete.vim ***
+let g:neocomplete#enable_at_startup = 1
+
 " *** arcane plugins ***
 " prevent some built-in, unused plugins from loading
 let g:loaded_vimballPlugin = 1

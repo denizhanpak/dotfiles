@@ -102,3 +102,7 @@
 	path = vim/.vim/_addons/vim-textobj-function
 	url = git://github.com/kana/vim-textobj-function.git
 	branch = master
+[submodule "vim/.vim/_addons/neocomplete.vim"]
+	path = vim/.vim/_addons/neocomplete.vim
+	url = gh:Shougo/neocomplete.vim
+	branch = master

@@ -1,0 +1,1 @@
+../_addons/neocomplete.vim/plugin/neocomplete.vim
