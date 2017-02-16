@@ -5,6 +5,10 @@
 # ignore CVS merge temps
 --ignore-file=match:/^\.#.+/
 
+# ignore git merge temps
+--ignore-file=match:/\.orig$/
+--ignore-file=match:/_(BACKUP|BASE|LOCAL|REMOTE)_.*$/
+
 --ignore-file=match:/\.css\.map$/
 --ignore-file=match:/\.scssc$/
 # vi: ft=conf
