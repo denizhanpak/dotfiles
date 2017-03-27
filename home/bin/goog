@@ -1,7 +1,7 @@
-#!/bin/sh
+#!/bin/bash
 # opens elinks to the specified (or un-specified) search query
 
-if [ -z "${BROWSER:=$(which -a elinks links lynx curl |head -1)}" ]; then
+if [[ -z "${BROWSER:=$(which -a elinks links lynx curl |head -1)}" ]]; then
 	echo 'No suitable text mode browser found.' >&2
 	echo 'Set BROWSER environment variable to specify one manually.' >&2
 	exit 2
@@ -129,18 +129,18 @@ collate_args() {
 	echo -n "${args%&}"
 }
 
-if [ "$BACK_TRANS" -ne 0 ]; then
-	if [ -n "$HOME_LANG" ]; then
+if [[ "$BACK_TRANS" -ne 0 ]]; then
+	if [[ -n "$HOME_LANG" ]]; then
 		EXTRA_ARGS+=("sl=$HOME_LANG")
 	fi
-	if [ -n "$SOURCE_LANG" ]; then
+	if [[ -n "$SOURCE_LANG" ]]; then
 		EXTRA_ARGS+=("hl=$SOURCE_LANG")
 	fi
 else
-	if [ -n "$HOME_LANG" ]; then
+	if [[ -n "$HOME_LANG" ]]; then
 		EXTRA_ARGS+=("hl=$HOME_LANG")
 	fi
-	if [ -n "$SOURCE_LANG" ]; then
+	if [[ -n "$SOURCE_LANG" ]]; then
 		EXTRA_ARGS+=("sl=$SOURCE_LANG")
 	fi
 fi
@@ -151,12 +151,12 @@ EXTRA_ARGS+=("ie=$ENCODING")
 EXTRA_ARGS+=("${QUERY_VAR}=${QUERY_PREFIX}${*//&/%26}")
 
 # add browser name to args
-if [ "${EXTRA_ARGS[*]#client=}" == "${EXTRA_ARGS[*]}" ]; then
+if [[ "${EXTRA_ARGS[*]#client=}" == "${EXTRA_ARGS[*]}" ]]; then
 	EXTRA_ARGS+=("client=$(basename "$BROWSER")")
 fi
 
 # add browser name to args
-if [ "${EXTRA_ARGS[*]#hl=}" == "${EXTRA_ARGS[*]}" ]; then
+if [[ "${EXTRA_ARGS[*]#hl=}" == "${EXTRA_ARGS[*]}" ]]; then
 	EXTRA_ARGS+=('hl=en')
 fi
 
