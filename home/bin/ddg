@@ -76,6 +76,10 @@ done
 
 shift "$((OPTIND-1))"
 
+url_encode() {
+    perl -MURI::Escape -e 'print &uri_escape($_), "\n" foreach @ARGV' "$@"
+}
+
 collate_args() {
 
 #	for ((arg_i=0; arg_i < ${#EXTRA_ARGS[@]}-1; ++arg_i)) ; do
@@ -96,11 +100,11 @@ if [[ "$QUOTE" -ne 0 ]]; then
 	QUERY="\"$QUERY\""
 fi
 
-EXTRA_ARGS+=("${QUERY_VAR}=${QUERY_PREFIX}${QUERY//&/%26}")
+EXTRA_ARGS+=("${QUERY_VAR}=$(url_encode "${QUERY_PREFIX}${QUERY}")")
 
 # add browser name to args
 if [[ "${EXTRA_ARGS[*]#client=}" == "${EXTRA_ARGS[*]}" ]]; then
-	EXTRA_ARGS+=("client=$(basename "$BROWSER")")
+	EXTRA_ARGS+=("client=$(url_encode "$(basename "$BROWSER")")")
 fi
 
 url="https://duckduckgo.com/?$(collate_args)"

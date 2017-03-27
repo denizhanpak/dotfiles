@@ -118,6 +118,10 @@ done
 
 shift "$((OPTIND-1))"
 
+url_encode() {
+    perl -MURI::Escape -e 'print &uri_escape($_), "\n" foreach @ARGV' "$@"
+}
+
 collate_args() {
 
 #	for ((arg_i=0; arg_i < ${#EXTRA_ARGS[@]}-1; ++arg_i)) ; do
@@ -131,17 +135,17 @@ collate_args() {
 
 if [[ "$BACK_TRANS" -ne 0 ]]; then
 	if [[ -n "$HOME_LANG" ]]; then
-		EXTRA_ARGS+=("sl=$HOME_LANG")
+		EXTRA_ARGS+=("sl=$(url_encode "$HOME_LANG")")
 	fi
 	if [[ -n "$SOURCE_LANG" ]]; then
-		EXTRA_ARGS+=("hl=$SOURCE_LANG")
+		EXTRA_ARGS+=("hl=$(url_encode "$SOURCE_LANG")")
 	fi
 else
 	if [[ -n "$HOME_LANG" ]]; then
-		EXTRA_ARGS+=("hl=$HOME_LANG")
+		EXTRA_ARGS+=("hl=$(url_encode "$HOME_LANG")")
 	fi
 	if [[ -n "$SOURCE_LANG" ]]; then
-		EXTRA_ARGS+=("sl=$SOURCE_LANG")
+		EXTRA_ARGS+=("sl=$(url_encode "$SOURCE_LANG")")
 	fi
 fi
 
@@ -152,7 +156,7 @@ EXTRA_ARGS+=("${QUERY_VAR}=${QUERY_PREFIX}${*//&/%26}")
 
 # add browser name to args
 if [[ "${EXTRA_ARGS[*]#client=}" == "${EXTRA_ARGS[*]}" ]]; then
-	EXTRA_ARGS+=("client=$(basename "$BROWSER")")
+	EXTRA_ARGS+=("client=$(url_encode "$(basename "$BROWSER")")")
 fi
 
 # add browser name to args
