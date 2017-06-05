@@ -111,7 +111,7 @@ XTerm*termName:		xterm-256color
 *VT100.color15:		#ffffff
 
 *VT100*cursorColor:	#afff00
-*VT100*cursorBlink:	true
+*VT100*cursorBlink:	false
 *VT100*cursorOffTime:	250
 *VT100*cursorOnTime:	3000
 
